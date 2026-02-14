@@ -37,7 +37,7 @@ class CarsController extends Controller
 
             $file->move(public_path('images/car'), $filename);
 
-            $gambarPath = '/images/car/'.$filename;
+            $gambarPath = '/public/images/car/'.$filename;
         }
         Car::create([
             'name' => $request->name,
@@ -85,7 +85,7 @@ class CarsController extends Controller
 
             $file->move(public_path('images/car'), $filename);
 
-            $gambarPath = '/images/car/'.$filename;
+            $gambarPath = '/public/images/car/'.$filename;
         }
 
         // Update data

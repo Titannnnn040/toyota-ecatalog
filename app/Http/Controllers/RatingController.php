@@ -33,7 +33,7 @@ class RatingController extends Controller
 
             $file->move(public_path('images/rating'), $filename);
 
-            $gambarPath = '/images/rating/'.$filename;
+            $gambarPath = '/public/images/rating/'.$filename;
         }
         Rating::create([
             'name'   => $request->name,
@@ -76,7 +76,7 @@ class RatingController extends Controller
             $filename = time().'_'.$file->getClientOriginalName();
             $file->move(public_path('images/rating'), $filename);
 
-            $gambarPath = '/images/rating/'.$filename;
+            $gambarPath = '/public/images/rating/'.$filename;
         }
 
         // Update data

@@ -8,7 +8,7 @@
 	<script src="https://kit.fontawesome.com/c96216a310.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="icon" href="/images/logo-nobg.png" type="image/x-icon">
+    <link rel="icon" href="/public/images/logo-nobg.png" type="image/x-icon">
     
 </head>
 <body class="font-sans antialiased bg-gradient-to-b from-gray-100 to-gray-200">
@@ -19,7 +19,7 @@
         <div class="flex justify-between items-center h-16">
 
             <!-- Logo (Left) -->
-            <img src="images/logo.png" class="h-10" alt="Logo">
+            <img src="public/images/logo.png" class="h-10" alt="Logo">
 
             <!-- Center Menu (Desktop) -->
             <ul class="hidden md:flex gap-10 font-bold text-gray-700 absolute left-1/2 -translate-x-[30%]">

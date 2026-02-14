@@ -8,7 +8,7 @@
     <div class="flex flex-col md:flex-row items-center gap-12">
 
         <!-- Image -->
-        <img src="images/more-information.png" 
+        <img src="/public/images/more-information.png" 
              class="w-[260px] md:w-[380px] drop-shadow-lg"
              alt="More Information">
 

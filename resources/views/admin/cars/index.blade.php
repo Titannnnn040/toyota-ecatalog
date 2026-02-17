@@ -17,6 +17,8 @@
                 <th class="p-2">Harga</th>
                 <th class="p-2">DP</th>
                 <th class="p-2">Image</th>
+                <th class="p-2">Tenor</th>
+                <th class="p-2">Cicilan</th>
                 <th class="p-2">Created At</th>
             </tr>
         </thead>
@@ -43,6 +45,8 @@
                         -
                         @endif
                     </td>
+                    <td>{{number_format($item->tenor, 0, ',', '.')}} Bulan</td>
+                    <td>{{number_format($item->cicilan, 0, ',', '.')}}</td>
                     <td>{{$item->created_at}}</td>
                 </tr>
             @endforeach

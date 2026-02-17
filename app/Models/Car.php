@@ -15,6 +15,8 @@ class Car extends Model
         'category',
         'price',
         'dp',
-        'image'
+        'image',
+        'tenor',
+        'cicilan',
     ];
 }

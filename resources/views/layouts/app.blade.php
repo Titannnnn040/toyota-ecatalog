@@ -12,6 +12,22 @@
     
 </head>
 <body class="font-sans antialiased bg-gradient-to-b from-gray-100 to-gray-200">
+    <a href="https://wa.me/62895338112656" 
+        target="_blank"
+        class="fixed bottom-6 right-6 
+                bg-green-500 hover:bg-green-600 
+                text-white 
+                w-14 h-14 
+                rounded-full 
+                flex items-center justify-center 
+                shadow-lg hover:shadow-xl 
+                transition duration-300 z-50">
+
+            <!-- Icon WhatsApp (SVG) -->
+            <i class="fa-brands fa-whatsapp text-[30px]"></i>
+            
+        </a>
+
    <nav class="bg-white shadow-md relative">
 
     <div class="max-w-7xl mx-auto px-4">

@@ -92,28 +92,41 @@
 
                     </div>
                     <!-- PRICE GLASS BAR -->
-                    <div class="mt-5 flex items-center 
-                                justify-between 
-                                bg-white/70 backdrop-blur 
-                                border rounded-xl 
-                                overflow-hidden shadow">
+                    <div class="mt-5 grid grid-cols-2 
+                            bg-white/70 backdrop-blur 
+                            border rounded-xl 
+                            overflow-hidden shadow">
 
-                        <div class="px-4 py-3">
-                            <p class="text-xs text-gray-500">Harga</p>
-                            <p class="font-bold text-red-600">
-                                {{ number_format($car['price'], 0, ',', '.') }}
-                            </p>
-                        </div>
-
-                        <div class="px-4 py-3 border-l">
-                            <p class="text-xs text-gray-500">DP</p>
-                            <p class="font-bold">
-                                {{ number_format($car['dp'], 0, ',', '.') }}
-                            </p>
-                        </div>
-
-                        
+                    <div class="px-4 py-3 border-b border-r">
+                        <p class="text-xs text-gray-500">Harga</p>
+                        <p class="font-bold text-red-600">
+                            {{ number_format($car['price'], 0, ',', '.') }}
+                        </p>
                     </div>
+
+                    <div class="px-4 py-3 border-b">
+                        <p class="text-xs text-gray-500">DP</p>
+                        <p class="font-bold">
+                            {{ number_format($car['dp'], 0, ',', '.') }}
+                        </p>
+                    </div>
+
+                    <div class="px-4 py-3 border-r">
+                        <p class="text-xs text-gray-500">Tenor</p>
+                        <p class="font-bold">
+                            {{ number_format($car['tenor'], 0, ',', '.') }}
+                        </p>
+                    </div>
+
+                    <div class="px-4 py-3">
+                        <p class="text-xs text-gray-500">Cicilan</p>
+                        <p class="font-bold">
+                            {{ number_format($car['cicilan'], 0, ',', '.') }}
+                        </p>
+                    </div>
+
+                </div>
+
                 </div>
 
             </div>

@@ -97,7 +97,32 @@
                     </div>
                 @enderror
         </div>
-    
+        <div class="mb-4">
+            <label class="block mb-1 font-medium text-gray-700" for="dp">
+                Tenor (Bulan)
+            </label>
+            <input type="text" name="tenor" id="tenor"
+                placeholder="10"
+                class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-red-600 focus:outline-none @error('tenor') border-red-500 @enderror" value="{{old('tenor')}}">
+                @error('tenor')
+                    <div class="text-red-500 text-sm mt-1">
+                        {{ $message }}
+                    </div>
+                @enderror
+        </div>
+        <div class="mb-4">
+            <label class="block mb-1 font-medium text-gray-700" for="cicilan">
+                Cicilan
+            </label>
+            <input type="text" name="cicilan" id="cicilan"
+                placeholder="10.000.000"
+                class="w-full border rounded-lg p-3 focus:ring-2 focus:ring-red-600 focus:outline-none @error('cicilan') border-red-500 @enderror" value="{{old('cicilan')}}">
+                @error('cicilan')
+                    <div class="text-red-500 text-sm mt-1">
+                        {{ $message }}
+                    </div>
+                @enderror
+        </div>
         <!-- Tombol -->
         <button
             type="submit"
@@ -113,7 +138,7 @@
 
 </div>
 <script>
-    $('#price, #dp').on('input', function(){
+    $('#price, #dp, #tenor, #cicilan').on('input', function(){
         // Ambil angka saja
         let value = $(this).val().replace(/\D/g, '');
 

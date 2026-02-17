@@ -23,6 +23,8 @@ class CarsController extends Controller
             'category' => 'required',
             'price' => 'required',
             'dp' => 'required',
+            'tenor' => 'required',
+            'cicilan' => 'required',
             'image' => 'required|image|mimes:jpg,jpeg,png|max:2048'
         ]);
 
@@ -45,6 +47,8 @@ class CarsController extends Controller
             'category' => $request->category,
             'price' => str_replace('.', '', $request->price),
             'dp' => str_replace('.', '', $request->dp),
+            'cicilan' => str_replace('.', '', $request->cicilan),
+            'tenor' => str_replace('.', '', $request->tenor),
             'image' => $gambarPath,
         ]);
 
@@ -62,6 +66,8 @@ class CarsController extends Controller
             'category' => 'required',
             'price' => 'required',
             'dp' => 'required',
+            'tenor' => 'required',
+            'cicilan' => 'required',
             'image' => 'nullable|image|mimes:jpg,jpeg,png|max:2048'
         ]);
 
@@ -95,6 +101,8 @@ class CarsController extends Controller
             'category' => $request->category,
             'price' => str_replace('.', '', $request->price),
             'dp' => str_replace('.', '', $request->dp),
+            'cicilan' => str_replace('.', '', $request->cicilan),
+            'tenor' => str_replace('.', '', $request->tenor),
             'image' => $gambarPath,
         ]);
 

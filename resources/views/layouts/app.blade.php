@@ -97,7 +97,7 @@
         @include('gallery')
     </main>
     <footer class="bg-gray-200 text-gray-600 p-4 mt-4 text-center">
-        <p>© 2026 Toyota Pusat All Rights Reserved.</p>
+        <p>© 2026 Promo Toyota Dealer Resmi All Rights Reserved.</p>
     </footer>
     <script>
     const menuBtn = document.getElementById('menuBtn');

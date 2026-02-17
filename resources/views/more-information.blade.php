@@ -2,7 +2,7 @@
 
     <h1 class="text-3xl md:text-4xl font-bold text-center mb-10">
         Ingin Informasi Lebih Cepat?  
-        <span class="text-red-600">Hubungi Steven</span>
+        <span class="text-red-600">Hubungi Faisal Firmansyah</span>
     </h1>
 
     <div class="flex flex-col md:flex-row items-center gap-12">

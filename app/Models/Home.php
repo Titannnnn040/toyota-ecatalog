@@ -11,5 +11,6 @@ class Home extends Model
     protected $table = 'm_home';
     protected $fillable = [
         'running_text',
+        'banner',
     ];
 }

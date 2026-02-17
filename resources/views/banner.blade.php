@@ -14,7 +14,7 @@
     </style>
     <section class="relative w-full" id="home">
         <img src="{{$home->banner}}" class="w-full h-auto" />
-        <marquee direction="left" scrollamount="10" class="bg-[#DD3333] p-[.5cm] text-white text-md">
+        <marquee direction="left" scrollamount="7" class="bg-[#DD3333] p-[.5cm] text-white text-md">
             @for ($i = 1; $i <= 4 ; $i++)
                 <p class="inline-block mr-[7cm]">
                     {{$home->running_text}}

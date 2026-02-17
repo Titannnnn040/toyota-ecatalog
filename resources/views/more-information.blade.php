@@ -7,18 +7,18 @@
 
     <div class="flex flex-col md:flex-row items-center gap-12">
 
-        <!-- Image -->
-        <img src="/public/images/more-information.png" 
-             class="w-[260px] md:w-[380px] drop-shadow-lg"
+    <!-- Image -->
+    <div class="flex justify-center">
+        <img src="/public/images/more-information.png"
+             class="w-[260px] md:w-[380px] h-full object-contain drop-shadow-lg"
              alt="More Information">
-
-        <!-- Contact Cards -->
-        <div class="grid gap-5">
-
+    </div>
+    <!-- Contact Cards -->
+    <div class="grid gap-2 h-full content-center">
             <!-- Whatsapp -->
-            <a href="#" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
-                <div class="bg-green-100 p-4 rounded-lg mr-4 group-hover:scale-110 transition">
-                    <i class="fa-brands fa-whatsapp text-green-600 text-2xl"></i>
+            <a href="https://wa.me/62895338112656" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+                <div class="bg-green-100 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
+                    <i class="fa-brands fa-whatsapp text-green-600 text-[20px]"></i>
                 </div>
 
                 <div>
@@ -26,11 +26,31 @@
                     <p class="font-semibold text-lg">WhatsApp</p>
                 </div>
             </a>
+            <a href="https://www.tiktok.com/@faisal_toyota?_r=1&_t=ZS-93fVegLIRVc" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+                <div class="bg-red-200 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
+                    <i class="fa-brands fa-tiktok text-red-600 text-[20px]"></i>
+                </div>
+
+                <div>
+                    <p class="text-xs text-gray-500">Terhubung</p>
+                    <p class="font-semibold text-lg">Tiktok</p>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/share/1AZbMsAKyv/?mibextid=wwXIfr" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+                <div class="bg-blue-100 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
+                    <i class="fa-brands fa-facebook text-blue-600 text-[20px]"></i>
+                </div>
+
+                <div>
+                    <p class="text-xs text-gray-500">Terhubung</p>
+                    <p class="font-semibold text-lg">Facebook</p>
+                </div>
+            </a>
 
             <!-- Instagram -->
-            <a href="https://www.instagram.com/faisal_toyotaaa?igsh=YXhoZ3VmNWZ2cnY1" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
-                <div class="bg-pink-100 p-4 rounded-lg mr-4 group-hover:scale-110 transition">
-                    <i class="fa-brands fa-instagram text-pink-600 text-2xl"></i>
+            <a href="https://www.instagram.com/faisal_toyotaaa?igsh=YXhoZ3VmNWZ2cnY1" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+                <div class="bg-pink-100 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
+                    <i class="fa-brands fa-instagram text-pink-600 text-[20px]"></i>
                 </div>
 
                 <div>
@@ -40,14 +60,14 @@
             </a>
 
             <!-- Email -->
-            <a href="mailto:faisalfirmansyah0405@gmail.com" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
-                <div class="bg-red-100 p-4 rounded-lg mr-4 group-hover:scale-110 transition">
-                    <i class="fa-regular fa-envelope text-red-600 text-2xl"></i>
+            <a href="mailto:faisalfirmansyah0405@gmail.com" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+                <div class="bg-red-100 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
+                    <i class="fa-regular fa-envelope text-red-600 text-[17px]"></i>
                 </div>
 
                 <div>
-                    <p class="text-xs text-gray-500">Feedback</p>
-                    <p class="font-semibold text-lg">Kontak Email</p>
+                    <p class="text-xs text-gray-500">Terhubung</p>
+                    <p class="font-semibold text-lg">Email</p>
                 </div>
             </a>
 

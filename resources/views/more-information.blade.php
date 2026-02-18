@@ -16,7 +16,11 @@
     <!-- Contact Cards -->
     <div class="grid gap-2 h-full content-center">
             <!-- Whatsapp -->
-            <a href="https://wa.me/62895338112656" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
+            @php
+                $message = "Halo Admin,%0A%0ASaya tertarik dengan promo toyota tersebut:%0A%0AMohon info detailnya ya %0ATerima kasih";
+                $link = "https://wa.me/62895338112656?text=".$message;
+            @endphp
+            <a href="{{$link}}" target="_blank" class="group flex items-center bg-white rounded-xl shadow-md hover:shadow-xl transition p-3 w-[260px]">
                 <div class="bg-green-100 p-4 py-2 rounded-lg mr-4 group-hover:scale-110 transition">
                     <i class="fa-brands fa-whatsapp text-green-600 text-[20px]"></i>
                 </div>

@@ -62,7 +62,9 @@
                             "Nama Mobil: ".$car['name']."%0A".
                             "Tipe: ".$car['slug']."%0A".
                             "Harga: ".number_format($car['price'], 0, ',', '.')."%0A".
-                            "DP: ".number_format($car['dp'], 0, ',', '.')."%0A%0A".
+                            "DP: ".number_format($car['dp'], 0, ',', '.')."%0A".
+                            "Tenor: ".number_format($car['tenor'], 0, ',', '.'). " Bulan"."%0A".
+                            "Cicilan: ".number_format($car['cicilan'], 0, ',', '.')."%0A%0A".
                             "Mohon info detailnya ya.%0ATerima kasih.";
 
                     $link = "https://wa.me/62895338112656?text=".$message;

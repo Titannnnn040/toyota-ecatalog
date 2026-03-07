@@ -51,7 +51,7 @@
                 <ul class="hidden md:flex gap-5 text-lg text-gray-700">
                     <li><a href="https://www.instagram.com/faisal_toyotaaa?igsh=YXhoZ3VmNWZ2cnY1" target="_blank"><i class="fa-brands fa-instagram hover:text-red-600"></i></a></li>
                     <li><a href="https://www.facebook.com/share/1AZbMsAKyv/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook hover:text-red-600"></i></a></li>
-                    <li><a href="https://wa.me/62895338112656" target="_blank"><i class="fa-brands fa-whatsapp hover:text-red-600"></i></a></li>
+                    <li><a href="https://wa.me/62895338112656?text=Halo Admin,%0A%0ASaya tertarik dengan promo toyota tersebut:%0A%0AMohon info detailnya ya %0ATerima kasih" target="_blank"><i class="fa-brands fa-whatsapp hover:text-red-600"></i></a></li>
                     <li><a href="https://www.tiktok.com/@faisal_toyota?_r=1&_t=ZS-93fVegLIRVc" target="_blank"><i class="fa-brands fa-tiktok hover:text-red-600"></i></a></li>
                 </ul>
 
@@ -78,7 +78,7 @@
         <div class="flex justify-center gap-6 pb-6 text-xl">
             <a href="https://www.instagram.com/faisal_toyotaaa?igsh=YXhoZ3VmNWZ2cnY1"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.facebook.com/share/1AZbMsAKyv/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://wa.me/62895338112656"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.me/62895338112656?text=Halo Admin,%0A%0ASaya tertarik dengan promo toyota tersebut:%0A%0AMohon info detailnya ya %0ATerima kasih"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="https://www.tiktok.com/@faisal_toyota?_r=1&_t=ZS-93fVegLIRVc"><i class="fa-brands fa-youtube"></i></a>
         </div>
 

@@ -12,7 +12,7 @@
     
 </head>
 <body class="font-sans antialiased bg-gradient-to-b from-gray-100 to-gray-200">
-    <a href="https://wa.me/62895338112656" 
+    <a href="https://wa.me/62895338112656?text=Halo Admin,%0A%0ASaya tertarik dengan promo toyota tersebut:%0A%0AMohon info detailnya ya %0ATerima kasih" 
         target="_blank"
         class="fixed bottom-6 right-6 
                 bg-green-500 hover:bg-green-600 

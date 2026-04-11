@@ -1,6 +1,10 @@
 <section id="catalog">
 <div class="max-w-7xl mx-auto py-12 px-4">
-
+    <style>
+        .filter-btn {
+            flex: 0 0 auto;
+        }
+    </style>
     <!-- HEADER -->
     <div class="text-center mb-10">
         <h1 class="text-4xl font-bold">
@@ -12,7 +16,7 @@
     </div>
 
     <!-- FILTER -->
-    <div class="flex justify-center gap-4 mb-10">
+    <div class="flex flex-wrap justify-center gap-4 mb-10">
         <button onclick="filterCars(event,'all')" 
             class="filter-btn bg-red-600 text-white px-6 py-2 rounded-full">
             All
@@ -20,7 +24,7 @@
 
         @foreach ($category as $item)
             <button onclick="filterCars(event, '{{$item->name}}')" 
-                class="filter-btn bg-white px-6 py-2 rounded-full shadow">
+                class="filter-btn bg-danger px-6 py-2 rounded-full shadow">
                 {{$item->name}}
             </button>
         @endforeach
